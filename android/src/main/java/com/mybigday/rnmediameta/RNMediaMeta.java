@@ -122,7 +122,7 @@ public class RNMediaMeta extends ReactContextBaseJavaModule {
         result.putString("createTime", result.getString("creation_time"));
       }
 
-      if (options.getBoolean("thumb")) {
+      if (options.getBoolean("getThumb")) {
         // get thumb
         Bitmap bmp = mmr.getFrameAtTime();
         if (bmp != null) {
